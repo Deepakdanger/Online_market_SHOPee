@@ -4,36 +4,63 @@
     ==============================================
 */
 
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: helvetica,gotha;
   box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #333;
 }
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** Navbar ******
     ==============================================
 */
+
+.nav-top {
+  
+  background-image: linear-gradient(to right,#d35266 ,white);
+}
+
+.img-logo {
+  width: 30%;
+  height: auto;
+}
+
+.nav-bottom {
+  background-image: linear-gradient(to right,#d35266 ,white);
+}
+
+.da {
+  color: #d35266;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 10px;
+}
+
+.img-logo1 {
+  height: 10rem;
+}
+
+.foot-top1 {
+  width: 100%;
+}
+
+.foot-top-dis {
+  margin-left: 5rem;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.foot-top2 {
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .foot-top2 {
+    display: block;
+  }
+
+}

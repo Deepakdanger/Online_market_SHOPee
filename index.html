@@ -8,8 +8,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
-  <link rel="icon" href="./img/icon.png">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <link rel="icon" href="./img/icon.jpg">
   <script
       src="https://kit.fontawesome.com/9875f697fa.js"
       crossorigin="anonymous"
@@ -18,7 +21,83 @@
 </head>
 
 <body>
-  <h1>hello world</h1>
+
+   <!-------   THE NAV BAR SECTION    ----------->
+  <nav class="navbar nav-top">
+    <a class="link-logo" href="#"><img class="img-logo" src="./img/shopeelogo.PNG" alt="logo_Image"></a>
+    <div>
+      <a href="#"><i class="fas fa-shipping-fast da mr-3"></i></a>
+      <a href="#"><i class="fas fa-user-alt da float-right "></i></a>
+    </div>
+  </nav>
+
+
+  <nav class="navbar nav-bottom">
+    <div class="dropdown float-left">
+      <a class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <i class="fas fa-lg fa-bars"></i>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+    <form class="search1 ">
+      <input type="text" placeholder="Search for product,Brands and More...." name="search">
+      <a type="submit"><i class="fa fa-search da "></i></a>
+    </form>    
+  </nav>
+  
+    <!-------   THE FOOTER SECTION    ----------->
+  <footer class="footer border-top mt-5">
+    <div class="foot-top">
+      <div class="foot-top1 ">
+        <a class=" foot-top-dis" href="#"><img class="" src="./img/shopeelogo.PNG" alt="logo_Image"></a>
+        <p class="foot-top-dis">
+          This is the dummy website of the electronics shop, Here you can find all the stuffs related to the 
+          electronics.
+        </p>
+      </div>
+      <div class="foot-top2">
+         <h4 class="foot-top-head">CATEGORIES</h4>
+         <div class="foot-categories d-flex">
+           <div class="foot-categories1">
+             <a class="foot-categories2" href="#">Real Estate</a><br>
+             <a class="foot-categories2" href="#">Automotives</a><br>
+             <a class="foot-categories2" href="#">Electronics</a><br>
+             <a class="foot-categories2" href="#">Clothing</a><br>
+             <a class="foot-categories2" href="#">Fashion</a><br>
+             <a class="foot-categories2" href="#">Kids</a><br>
+             <a class="foot-categories2" href="#">Drinks</a><br>
+           </div>
+           <div class="foot-categories1">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#"> Drinks</a><br>
+          </div>
+          <div class="foot-categories1">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#">Drinks</a><br>
+          </div>
+           
+         </div>
+      </div>
+    </div>
+    <div class="foot-low border-top">
+        <h5 >Copiright@ 2020,SHOPee.com. All right Researved</h5>
+    </div>
+  </footer>
+
 </body>
 
 </html>
