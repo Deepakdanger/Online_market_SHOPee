@@ -43,18 +43,30 @@
   height: 10rem;
 }
 
+.footer {
+margin-top: 300px;
+width: 100%;
+}
+
 .foot-top1 {
   width: 100%;
 }
 
 .foot-top-dis {
   margin-left: 5rem;
+  margin-right: 5rem;
   justify-content: center;
   background-color: rgb(255, 255, 255);
 }
 
 .foot-top2 {
   display: none;
+}
+
+.h5 {
+  margin: 0 auto;
+  justify-content: center;  
+  width: 5rem;
 }
 
 
