@@ -123,6 +123,13 @@ width: 100%;
     ==============================================
 */
 
+.container-t {
+  color: #d35266;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
 .container-main {
   display: grid;
   grid-template-columns: auto;
