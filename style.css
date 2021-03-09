@@ -48,10 +48,6 @@ margin-top: 300px;
 width: 100%;
 }
 
-.foot-top1 {
-  width: 100%;
-}
-
 .foot-top-dis {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -67,6 +63,29 @@ width: 100%;
 @media only screen and (min-width: 768px) {
   .foot-top2 {
     display: block;
+    width: 30%;
+  }
+
+  .foot-top-head {
+    border-bottom: 1px solid #888888;
+  }
+
+  .foot-categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .foot-categories1 a {
+    color: #888888;
+    text-decoration: none;
+  }
+
+  .foot-categories1 a:hover {
+    text-decoration: none;
+  }
+
+  .foot-top-head {
+    color: #d35266;
   }
 
 }
