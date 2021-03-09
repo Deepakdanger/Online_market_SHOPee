@@ -94,7 +94,7 @@ width: 100%;
 
 .deals2 {
   width: 100%;
-  height: 150px;
+  height: 1;
   display: flex;
 }
 
@@ -168,6 +168,17 @@ width: 100%;
   color: #888888;
 }
 
+/*
+    ==============================================
+                ****** Sort Section ******
+    ==============================================
+*/
+
+.sort {
+  display: grid;
+  grid-template-columns: auto auto ;
+}
+
 @media only screen and (min-width: 768px) {
   .foot-top2 {
     display: block;
@@ -203,6 +214,10 @@ width: 100%;
 
   .container-main {
     grid-template-columns: auto auto;
+  }
+
+  .sort {
+    grid-template-columns: auto;
   }
 
 }
