@@ -15,7 +15,7 @@ Project Design Screenshot : ![Project Design](img/Screenshot.PNG)
 - Clonning the project: git clone (https://github.com/Deepakdanger/Online_market_SHOPee.git)
 - To open folder : cd .\Online_market_SHOPee\
 - link to open page locally: (F:\1234Microverse\Online_market_SHOPee/index.html)
-        or live server:(https://deepakdanger.github.io/Online_market_SHOPee/)
+- live server:(https://deepakdanger.github.io/Online_market_SHOPee/)
 
 # Github link:
 
