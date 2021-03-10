@@ -198,6 +198,18 @@ width: 100%;
 
 .pagi {
   display: flex;
+  justify-content: center;
+}
+
+.page-item a{
+  color: #d35266;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #d35266 !important;
+  border-color: #d35266 !important;
 }
 
 @media only screen and (min-width: 768px) {
