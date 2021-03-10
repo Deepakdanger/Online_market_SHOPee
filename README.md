@@ -15,6 +15,7 @@ Project Design Screenshot : ![Project Design](img/Screenshot.PNG)
 - Clonning the project: git clone (https://github.com/Deepakdanger/Online_market_SHOPee.git)
 - To open folder : cd .\Online_market_SHOPee\
 - Live link:(https://deepakdanger.github.io/Online_market_SHOPee/)
+- Video link :(https://www.loom.com/share/c06c033af58d4681aab447f2ab0a5136)
 
 # Instruction
 
