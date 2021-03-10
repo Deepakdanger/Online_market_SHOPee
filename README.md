@@ -10,14 +10,14 @@ Original Design link :(https://www.behance.net/gallery/24796463/ZATTIX)
 
 Project Design Screenshot : ![Project Design](img/Screenshot.PNG)
 
-# Instruction
+# Github link:
 
 - Clonning the project: git clone (https://github.com/Deepakdanger/Online_market_SHOPee.git)
 - To open folder : cd .\Online_market_SHOPee\
 - link to open page locally: (F:\1234Microverse\Online_market_SHOPee/index.html)
 - live server:(https://deepakdanger.github.io/Online_market_SHOPee/)
 
-# Github link:
+# Instruction
 
 For the: [Github-link](https://github.com/Deepakdanger/Online_market_SHOPee/tree/market1)
 
@@ -39,7 +39,7 @@ For the: [Github-link](https://github.com/Deepakdanger/Online_market_SHOPee/tree
 - Used image and description and using flex for other section.
 - Add icons of social media and copyright
 
-## Checkout page
+## Checkout(2nd HTML) page
 ## Navigation bar
 
 - Use icon for register.
