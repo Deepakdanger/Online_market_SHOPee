@@ -1,57 +1,67 @@
-# Project Name
+# SHOPee-ONLINE ELECTRONIC SHOP
+This is Online Electronics shop html page.
+In the process of making this website,I learn some  techniques like float, position, grid, flex ,bootstrap, and various property which made our project more flexible.
 
-> One paragraph statement about the project.
+# Original Design
 
-![screenshot](./app_screenshot.png)
+Original Design link :(https://www.behance.net/gallery/24796463/ZATTIX)
+  
+# Project Design
 
+Project Design Screenshot : ![Project Design](img/Screenshot.PNG)
 
-Additional description about the project and its features.
+# Instruction
 
-## Built With
+- Clonning the project: git clone (https://github.com/Deepakdanger/Online_market_SHOPee.git)
+- To open folder : cd .\Online_market_SHOPee\
+- link to open page locally: (F:\1234Microverse\Online_market_SHOPee/index.html)
+        or live server:(https://deepakdanger.github.io/Online_market_SHOPee/)
+
+# Github link:
+
+For the: [Github-link](https://github.com/Deepakdanger/Online_market_SHOPee/tree/market1)
+
+## Navigation bar
+
+- Used flex to create two division one for LOGO & second for Icon and register button .
+- Used icon with dropdown and search input.
+
+## Deals of day section
+
+- Used carousel and bootstrap and put an image and other discription in flex. 
+
+## Category section
+
+- Various Deals is here of different category
+
+## footer section
+
+- Used image and description and using flex for other section.
+- Add icons of social media and copyright
+
+## Checkout page
+## Navigation bar
+
+- Use icon for register.
+
+## Sorting section
+
+- Used radio for select only one option in price and size
+- Used checbox for selecting multiple option in brand and category
+- Used flex for display flex
+- Used bootstrap Paging to create paging 
+
+# Technology Used
 
 - HTML
-- CSS3
-- Font awesome icons
+- CSS
+- Font Awesome icons
 
-## Live Demo
-
-[Live Demo Link](https://raw.githack.com)
-
-## To get a local copy up and running follow these simple example steps.
-
-### Setup
-
-Clone the project locally.
-
-### Linters
-
-1. run `npm install`.
-2. run `npm run test` to check the Html and CSS files.
-
-### Deployment
-
-Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
-
-## Authors
-
-👤 **Mkrtich Sargsyan**
-
-- Github: [@githubhandle](https://github.com/MkrtichSargsyan)
-- Twitter: [@twitterhandle](https://twitter.com/MkrtichSargsyan)
-- Linkedin: [linkedin](https://www.linkedin.com/in/mkrtich-sargsyan-921ab0152/)
-- Email:  mkrtichsargsyan24@gmail.com
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-- Email:  
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+# Authors
+Name :Deepak kumar
+Githhub :https://github.com/Deepakdanger
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
+

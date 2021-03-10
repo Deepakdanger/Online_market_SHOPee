@@ -1,9 +1,3 @@
- /*
-    ==============================================
-                ****** RESET ******
-    ==============================================
-*/
-
 * {
   margin: 0%;
   padding: 0%;
@@ -17,7 +11,7 @@
     ==============================================
 */
 
-.nav-top {  
+.nav-top {
   background-image: linear-gradient(to right,#d35266 ,white);
 }
 
@@ -34,7 +28,7 @@
   color: #d35266;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
   font-size: 10px;
 }
 
@@ -250,7 +244,7 @@ width: 100%;
   }
 
   .deals-price {
-   margin-top: 20px;
+    margin-top: 20px;
   }
 
   .container-main {
