@@ -17,8 +17,7 @@
     ==============================================
 */
 
-.nav-top {
-  
+.nav-top {  
   background-image: linear-gradient(to right,#d35266 ,white);
 }
 
@@ -64,6 +63,14 @@ width: 100%;
   color: white;
   display: flex;
   justify-content: center;
+}
+
+.try1 {
+  width: 100%;
+}
+
+.searchs {
+  width: 130px;
 }
 
 /*
@@ -179,6 +186,10 @@ width: 100%;
   grid-template-columns: auto auto ;
 }
 
+.section-sort {
+  display: block;
+}
+
 @media only screen and (min-width: 768px) {
   .foot-top2 {
     display: block;
@@ -220,10 +231,22 @@ width: 100%;
     grid-template-columns: auto;
   }
 
+  .searchs {
+    width: 300px;
+  }
+
+  .section-sort {
+    display: flex;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
   .container-main {
     grid-template-columns: auto auto auto auto;
+  }
+
+  .searchs {
+    width: 400px;
   }
 }
