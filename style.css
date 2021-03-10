@@ -59,10 +59,14 @@ width: 100%;
 }
 
 .foot-low {
-  background-color: #888888;
+  background-color: #d35266;
   color: white;
   display: flex;
   justify-content: center;
+}
+
+.icon {
+  background-color: #d35266;
 }
 
 .try1 {
@@ -218,6 +222,10 @@ width: 100%;
     width: 30%;
   }
 
+  .third{
+    display: none;
+  }
+
   .foot-top-head {
     border-bottom: 1px solid #888888;
   }
@@ -270,5 +278,9 @@ width: 100%;
 
   .searchs {
     width: 400px;
+  }
+
+  .third{
+    display: block;
   }
 }
