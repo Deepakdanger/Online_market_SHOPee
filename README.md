@@ -14,8 +14,7 @@ Project Design Screenshot : ![Project Design](img/Screenshot.PNG)
 
 - Clonning the project: git clone (https://github.com/Deepakdanger/Online_market_SHOPee.git)
 - To open folder : cd .\Online_market_SHOPee\
-- link to open page locally: (F:\1234Microverse\Online_market_SHOPee/index.html)
-- live server:(https://deepakdanger.github.io/Online_market_SHOPee/)
+- Live link:(https://deepakdanger.github.io/Online_market_SHOPee/)
 
 # Instruction
 
@@ -58,8 +57,15 @@ For the: [Github-link](https://github.com/Deepakdanger/Online_market_SHOPee/tree
 - Font Awesome icons
 
 # Authors
-Name :Deepak kumar
-Githhub :https://github.com/Deepakdanger
+- Name :Deepak kumar
+- Githhub :https://github.com/Deepakdanger
+
+# Show your support
+- Support by giving star
+
+# Acknowledgement
+- Mohammed Awad
+- Microverse
 
 ## 📝 License
 
