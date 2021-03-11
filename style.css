@@ -12,7 +12,7 @@
 */
 
 .nav-top {
-  background-image: linear-gradient(to right, rgb(0, 0, 0), white);
+  background-color: #000;
   height: 4rem;
 }
 
@@ -31,12 +31,12 @@
 }
 
 .change {
-  color: #000;
+  color: #fff;
 }
 
 .dad {
-  color: white;
-  background-color: #000;
+  color: rgb(0, 0, 0);
+  background-color: white;
 }
 
 ::-webkit-input-placeholder {
