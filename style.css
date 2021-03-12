@@ -168,7 +168,8 @@
 
 .container-main {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
+  column-gap: normal;
   margin: 5px;
   margin-left: 10px;
   margin-right: 10px;
@@ -271,7 +272,7 @@
   }
 
   .container-main {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
   }
 
   .sort {
@@ -289,7 +290,7 @@
 
 @media only screen and (min-width: 1024px) {
   .container-main {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
   }
 
   .searchs {
@@ -298,5 +299,9 @@
 
   .third {
     display: block;
+  }
+
+  .barrr {
+    visibility: hidden;
   }
 }
