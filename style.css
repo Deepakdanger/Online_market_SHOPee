@@ -1,39 +1,313 @@
- /*
-    ==============================================
-                ****** RESET ******
-    ==============================================
-*/
-
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #333;
 }
 
 /*
     ==============================================
-                ****** GLOBAL ******
+                ****** Navbar ******
     ==============================================
 */
+
+.nav-top {
+  background-color: #000;
+  height: 4rem;
+}
+
+.img-logo {
+  width: 30%;
+  height: auto;
+}
+
+.nav-bottom {
+  background-color: #d35266;
+}
+
+.img-logo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.change {
+  color: #fff;
+}
+
+.dad {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+::-webkit-input-placeholder {
+  font-size: 10px;
+}
+
+.img-logo1 {
+  height: 10rem;
+}
+
+.search1 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.footer {
+  margin-top: 300px;
+  width: 100%;
+}
+
+.foot-top-dis {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.foot-top2 {
+  display: none;
+}
+
+.foot-low {
+  background-color: #d35266;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  background-color: #d35266;
+}
+
+.try1 {
+  width: 100%;
+}
+
+.searchs {
+  width: 55px;
+}
+
+.search-text {
+  height: 1.8rem;
+  margin-left: 2px;
+  padding-bottom: 2px;
+}
+
+/*
+    ==============================================
+                ****** Deals ******
+    ==============================================
+*/
+
+.dealsof-t {
+  color: #d35266;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.slides1 {
+  display: flex;
+  justify-content: center;
+}
+
+.deals {
+  width: 100%;
+  height: 150px;
+}
+
+.deals-t {
+  color: #d35266;
+}
+
+.deals-dis a:hover {
+  text-decoration: underline;
+  color: #d35266;
+}
+
+.deals2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile1-d {
+  width: 30%;
+  height: 150px;
+}
+
+.deals-price {
+  justify-content: space-around;
+  color: white;
+  margin-top: 5px;
+}
+
+.da {
+  color: white;
+  background-color: #d35266;
+}
+
+.back2 {
+  background-color: #d35266;
+}
+
+/*
+    ==============================================
+                ****** Main Section ******
+    ==============================================
+*/
+
+.section-head {
+  color: #d35266;
+  margin: 10px;
+  margin-top: 10px;
+  border-bottom: 2px double #888;
+}
+
+.container-title {
+  color: #d35266;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: normal;
+  margin: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container1 {
+  height: 400px;
+  border: 1px solid #888;
+  padding: 5px;
+  margin: 5px;
+}
+
+.container-img {
+  width: 100%;
+  height: 200px;
+}
+
+.img-title {
+  font-weight: bolder;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.new-old {
+  font-weight: bold;
+  color: #d35266;
+  font-size: 12px;
+}
+
+.location {
+  font-weight: lighter;
+  color: #888;
+}
+
+/*
+    ==============================================
+                ****** Sort Section ******
+    ==============================================
+*/
+
+.sort {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.section-sort {
+  display: block;
+}
+
+.sort-dis {
+  border-bottom: 1px solid #888;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.pagi {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #d35266 !important;
+  border-color: #d35266 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .foot-top2 {
+    display: block;
+    width: 30%;
+  }
+
+  .third {
+    display: none;
+  }
+
+  .foot-top-head {
+    border-bottom: 1px solid #888;
+    color: #d35266;
+  }
+
+  .foot-categories {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .foot-categories1 a {
+    color: #888;
+    text-decoration: none;
+  }
+
+  .foot-categories1 a:hover {
+    text-decoration: none;
+    color: #d35266;
+  }
+
+  .deals-price {
+    margin-top: 20px;
+  }
+
+  .container-main {
+    grid-template-columns: auto auto auto;
+  }
+
+  .sort {
+    grid-template-columns: auto;
+  }
+
+  .searchs {
+    width: 250px;
+  }
+
+  .section-sort {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-main {
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .searchs {
+    width: 350px;
+  }
+
+  .third {
+    display: block;
+  }
+
+  .barrr {
+    visibility: hidden;
+  }
+}

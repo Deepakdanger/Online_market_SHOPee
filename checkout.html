@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='icon' href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <link rel="icon" href="./img/icon.jpg">
+  <script
+      src="https://kit.fontawesome.com/9875f697fa.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>Checkout</title>
+</head>
+<body>
+ 
+  <nav class="navbar nav-top">
+    <a class="link-logo col col-sm-auto" href="#"><img class="img-logo text-white" src="./img/shopeewhite.png" alt="logo_Image"></a>
+    <div class=" float-right">
+      <a href="index.html"><i class="fas fa-home change mr-3"></i></a>
+      <a href="checkout.html"><i class="fas fa-shipping-fast change mr-3"></i></a>
+      <a class="dad p-2 pb-2" > <i class="fas fa-user-alt change text-dark "></i><p  class="btn text-dark text-weight-bold pt-3">REGISTER</p></a>
+     
+      
+    </div>
+  </nav>
+
+
+  <nav class="navbar nav-bottom ">
+    <a class="link-logo col-12  img-logo2" href="#"><img class="img-logo text-white" src="./img/shopeewhite.png" alt="logo_Image"></a>
+    
+    <div class=" barrr dropdown float-left">
+      <a href="#" class="btn dropdown-toggle text-white" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <i class="fas fa-lg fa-bars text-white"></i>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#laptop1">Laptop</a>
+        <a class="dropdown-item" href="#mobile1">Mobiles </a>
+        <a class="dropdown-item" href="#tablet1">Tablet</a>
+        <a class="dropdown-item" href="#">More....</a>
+      </div>
+    </div>
+    <form class="search1 ">
+      <div class="searchs"><input class="try1" type="text" placeholder="Search for brand and more..." name="search"></div>
+      <div class="searchs"><input class="try1" type="text" placeholder="Category" name="search"></div>
+      <a href="checkout.html" class="btn text-danger bg-white search-text pb-3"><i class="fa fa-search text-danger pr-2"></i>Search</a>
+    </form>  
+    <div></div>   
+  </nav>
+
+  
+  <section class="section-sort">
+    
+    <div class="section-sort">
+      
+      <article class="sort col-3">
+        <h1 class="text-danger col"> Sort here...</h1>
+        <div class="sort">
+        <div class="type mt-3 ml-4">
+        <p class="type1 border-bottom">Type</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Big
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+            <label class="form-check-label" for="flexRadioDefault2">
+              Medium
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" >
+            <label class="form-check-label" for="flexRadioDefault2">
+              Small
+            </label>
+          </div>
+        </div>
+        <div class="price mt-3 ml-4">
+            <p class="type1 border-bottom">Price</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  $100
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" >
+                <label class="form-check-label" for="flexRadioDefault2">
+                  $100-$1000
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" >
+                <label class="form-check-label" for="flexRadioDefault2">
+                  $1000-$5000
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7" >
+                <label class="form-check-label" for="flexRadioDefault2">
+                  $5000+
+                </label>
+              </div>
+            </div>
+            <div class="brand mt-3 ml-4">
+                <p class="type1 border-bottom">Brand</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                    <label class="form-check-label" for="flexCheckDefault1">
+                      Oppo
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked>
+                    <label class="form-check-label" for="flexCheckChecked2">
+                      Apple
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked >
+                    <label class="form-check-label" for="flexCheckChecked3">
+                      Nokia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked>
+                    <label class="form-check-label" for="flexCheckChecked4">
+                      HP
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5" >
+                    <label class="form-check-label" for="flexCheckChecked5">
+                      Dell
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked6" >
+                    <label class="form-check-label" for="flexCheckChecked6">
+                      Samsung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked7" >
+                    <label class="form-check-label" for="flexCheckChecked7">
+                      Others..
+                    </label>
+                  </div>
+                </div>
+
+                <div class="storage mt-3 ml-4">
+                    <p class="type1 border-bottom">Storage</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                        <label class="form-check-label" for="flexCheckDefault8">
+                          2GB-8GB
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked9" checked>
+                        <label class="form-check-label" for="flexCheckChecked9">
+                          8GB-16GB
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked10" >
+                        <label class="form-check-label" for="flexCheckChecked10">
+                            16GB+
+                        </label>
+                      </div>                     
+                    </div>
+                  </div>
+                  <div> </div>
+                  <div> </div>
+                  <div> </div>
+                  <div> </div>
+                </article>
+
+      
+      <article class="sort-discription mt-4 border-left">
+        <h4 class="text-danger">Results</h4>
+        <div class="pl-4">
+          
+           <b>8 Results</b> For Apple search in <b>Tab </b>Categories.....
+        </div>
+          <div class="sort-container">
+            <div class="bg-white deals2 my-3 sort-dis border-top">
+                <div class="d-flex pl-2">
+                   <img class="d-block mobile1-d" src="./img/tab1.jpg" alt="second slide">
+                   <div class="deals-dis ml-2">
+                      <a href="#" class="deals-t" ><h5>TAB/NEW ERA</h5></a>
+                      <div class="deals-discription">
+                        Tab is a electronics Device , medium size, good for reading and play games.
+                      </div>
+                      <p class="new-old"> New</p>
+                      <p class="location"> From:INDIA, Mumbai</p>
+                      <div class="deals-price d-flex">
+                        <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white deals2 my-3 sort-dis">
+              <div class="d-flex pl-2">
+                 <img class="d-block mobile1-d" src="./img/tab2.jpeg" alt="second slide">
+                 <div class="deals-dis ml-2">
+                    <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+                    <div class="deals-discription">
+                      Tab is a electronics Device , medium size, good for reading and play games.
+                    </div>
+                    <p class="new-old"> Used</p>
+                    <p class="location"> From:INDIA, Chennai</p>
+                    <div class="deals-price d-flex">
+                      <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+                     </div>
+                  </div>
+              </div>
+          </div>
+          <div class="bg-white deals2 my-3 sort-dis">
+            <div class="d-flex pl-2">
+               <img class="d-block mobile1-d" src="./img/tab1.jpg" alt="second slide">
+               <div class="deals-dis ml-2">
+                  <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+                  <div class="deals-discription">
+                    Tab is a electronics Device , medium size, good for reading and play games.
+                  </div>
+                  <p class="new-old"> Used</p>
+                  <p class="location"> From:INDIA, Chennai</p>
+                  <div class="deals-price d-flex">
+                    <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white deals2 my-3 sort-dis">
+          <div class="d-flex pl-2">
+             <img class="d-block mobile1-d" src="./img/tab2.jpeg" alt="second slide">
+             <div class="deals-dis ml-2">
+                <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+                <div class="deals-discription">
+                  Tab is a electronics Device , medium size, good for reading and play games.
+                </div>
+                <p class="new-old"> Used</p>
+                <p class="location"> From:INDIA, Chennai</p>
+                <div class="deals-price d-flex">
+                  <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+                 </div>
+              </div>
+          </div>
+      </div>
+      <div class="bg-white deals2 my-3 sort-dis">
+        <div class="d-flex pl-2">
+           <img class="d-block mobile1-d" src="./img/tab1.jpg" alt="second slide">
+           <div class="deals-dis ml-2">
+              <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+              <div class="deals-discription">
+                Tab is a electronics Device , medium size, good for reading and play games.
+              </div>
+              <p class="new-old"> Used</p>
+              <p class="location"> From:INDIA, Chennai</p>
+              <div class="deals-price d-flex">
+                <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+               </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg-white deals2 my-3 sort-dis">
+        <div class="d-flex pl-2">
+           <img class="d-block mobile1-d" src="./img/tab2.jpeg" alt="second slide">
+           <div class="deals-dis ml-2">
+              <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+              <div class="deals-discription">
+                Tab is a electronics Device , medium size, good for reading and play games.
+              </div>
+              <p class="new-old"> Used</p>
+              <p class="location"> From:INDIA, Chennai</p>
+              <div class="deals-price d-flex">
+                <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+               </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg-white deals2 my-3 sort-dis">
+        <div class="d-flex pl-2">
+           <img class="d-block mobile1-d" src="./img/tab1.jpg" alt="second slide">
+           <div class="deals-dis ml-2">
+              <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+              <div class="deals-discription">
+                Tab is a electronics Device , medium size, good for reading and play games.
+              </div>
+              <p class="new-old"> Used</p>
+              <p class="location"> From:INDIA, Chennai</p>
+              <div class="deals-price d-flex">
+                <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+               </div>
+            </div>
+        </div>
+      </div>
+      <div class="bg-white deals2 my-3 sort-dis">
+        <div class="d-flex pl-2">
+           <img class="d-block mobile1-d" src="./img/tab2.jpeg" alt="second slide">
+           <div class="deals-dis ml-2">
+              <a href="#" class="deals-t" ><h5>Apple Tab</h5></a>
+              <div class="deals-discription">
+                Tab is a electronics Device , medium size, good for reading and play games.
+              </div>
+              <p class="new-old"> Used</p>
+              <p class="location"> From:INDIA, Chennai</p>
+              <div class="deals-price d-flex">
+                <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+               </div>
+            </div>
+        </div>
+      </div>
+        
+          
+            
+
+
+          </div>
+
+      </article>
+        </div>
+      </section>
+  
+
+  <nav aria-label="..." class="pagi">
+    <ul class="pagination">
+      <li class="page-item ">
+        <a class="page-link " href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link " href="#">1</a></li>
+      <li class="page-item active">
+        <a class="page-link" href="#">2 <span class="sr-only ">(current)</span></a>
+      </li>
+      <li class="page-item "><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link " href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+   
+   <footer class=" border-top ">
+    <div class="foot-top d-flex container-fluid">
+      <div class="foot-top1">
+        <a class=" foot-top-dis" href="#"><img class="img-container" src="./img/shopeelogo.PNG" alt="logo_Image"></a>
+        <p class="foot-top-dis">
+          This is the dummy website of the electronics shop, Here you can find all the stuffs related to the 
+          electronics.
+        </p>
+      </div>
+      <div class="foot-top2 mt-3 ">
+         <h4 class="foot-top-head">CATEGORIES</h4>
+         <div class="foot-categories ml-2">
+           <div class="foot-categories1">
+             <a class="foot-categories2" href="#">Real Estate</a><br>
+             <a class="foot-categories2" href="#">Automotives</a><br>
+             <a class="foot-categories2" href="#">Electronics</a><br>
+             <a class="foot-categories2" href="#">Clothing</a><br>
+             <a class="foot-categories2" href="#">Fashion</a><br>
+             <a class="foot-categories2" href="#">Kids</a><br>
+             <a class="foot-categories2" href="#">Drinks</a><br>
+           </div>
+           <div class="foot-categories1">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#"> Drinks</a><br>
+          </div>
+          <div class="foot-categories1">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#">Drinks</a><br>
+          </div>
+           
+         </div>
+      </div>   
+    </div>
+    <div class="icon navbar-brand font-weight-bold d-flex justify-content-around w-100 ">      
+      <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+      <a href="#"><i class="fab fa-twitter text-white"></i></a>
+      <a href="#"><i class="fab fa-instagram text-white"></i></a>
+      <a href="#"><i class="fab fa-tumblr text-white"></i></a>
+      <a href="#"><i class="fab fa-linkedin text-white"></i></a>
+      </div>
+    <div class="foot-low border-top container-fluid font-weight-light py-3 ">
+        <h6>Copiright &copy; 2021,SHOPee.com. All right Researved. Created By Deepak Kumar. Electronic online shop.</h6>
+    </div>
+    
+  </footer>
+    
+</body>
+</html>

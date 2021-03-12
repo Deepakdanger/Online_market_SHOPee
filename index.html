@@ -3,15 +3,385 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='icon' href="#">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <link rel="icon" href="./img/icon.jpg">
+  <script
+      src="https://kit.fontawesome.com/9875f697fa.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>SHOPee-Online MArket</title>
 </head>
 
 <body>
-  <h1>hello world</h1>
+
+   
+  <nav class="navbar nav-top">
+    <a class="link-logo col col-sm-auto" href="#"><img class="img-logo text-white" src="./img/shopeewhite.png" alt="logo_Image"></a>
+    <div class=" float-right">
+      <a href="index.html"><i class="fas fa-home change mr-3"></i></a>
+      <a href="checkout.html"><i class="fas fa-shipping-fast change mr-3"></i></a>
+      <a class="dad p-2 pb-2" > <i class="fas fa-user-alt change text-dark "></i><p  class="btn text-dark text-weight-bold pt-3">REGISTER</p></a>
+     
+      
+    </div>
+  </nav>
+
+
+  <nav class="navbar nav-bottom ">
+    <a class="link-logo col-12  img-logo2" href="#"><img class="img-logo text-white" src="./img/shopeewhite.png" alt="logo_Image"></a>
+    
+    <div class="dropdown float-left barrr">
+      <a href="#" class="btn dropdown-toggle text-white " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <i class="fas fa-lg fa-bars text-white"></i>
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#laptop1">Laptop</a>
+        <a class="dropdown-item" href="#mobile1">Mobiles </a>
+        <a class="dropdown-item" href="#tablet1">Tablet</a>
+        <a class="dropdown-item" href="#">More....</a>
+      </div>
+    </div>
+    <form class="search1 ">
+      <div class="searchs"><input class="try1" type="text" placeholder="Search for brand and more..." name="search"></div>
+      <div class="searchs"><input class="try1" type="text" placeholder="Category" name="search"></div>
+      <a href="checkout.html" class="btn text-danger bg-white search-text mb-3"><b class=" pb-3"><i class="fa fa-search text-danger pr-2"></i>Search</b></a>
+    </form> 
+    <div></div>   
+  </nav>
+
+   
+  <div class="slides1">
+   <div id="carouselExampleSlidesOnly" class="carousel slide mt-4" data-ride="carousel">
+     <p class="dealsof-t  slides1 w-100">DEALS OF THE DAY<i class="fas fa-fighter-jet"></i></p>
+     <div class="slides1">
+    <div class="carousel-inner ">
+
+      <div class="carousel-item active deals d-flex bg-white ">
+        <img class="d-block mobile1-d" src="./img/mobile4.jpg" alt="First slide">
+        <div class="deals-dis ml-2">
+          <a href="#" class="deals-t" ><h5>MOBILES/NEW PHONE</h5></a>
+          <div class="deals-discription">
+            A mobile phone, cellular phone, cell phone, cellphone, handphone, or hand phone, 
+          </div>
+          <div class="deals-price d-flex ">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$432</button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item bg-white deals2 ">
+        <div class="d-flex slides1 w-100">
+        <img class="d-block mobile1-d" src="./img/tab1.jpg" alt="second slide">
+        <div class="deals-dis ml-2">
+          <a href="#" class="deals-t" ><h5>TAB/NEW ERA</h5></a>
+          <div class="deals-discription">
+             phone, cellular phone, cell phone, cellphone, handphone, or hand phone, 
+          </div>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+          </div>
+        </div></div>
+      </div>
+
+      <div class="carousel-item bg-white deals2 ">
+        <div class="d-flex  slides1 w-100">
+        <img class="d-block mobile1-d" src="./img/laptop2.jpg" alt="third slide">
+        <div class="deals-dis ml-2">
+          <a href="#" class="deals-t" ><h5>LAPTOP/NEW ERA</h5></a>
+          <div class="deals-discription">
+             phone, cellular phone, cell phone, cellphone, handphone, or hand phone, 
+          </div>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$4132</button></p>/a>
+          </div>
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+  </div></div>
+  
+  <section class="mx-md-3 mx-lg-5">
+     <h1 class="section-head">CATEGORY</h1>
+    <article class="mobiles" id="mobile1">
+      <a class="container-title" href="#" ><h4>MOBILES <i class="fas fa-fighter-jet"></i></h4></a>
+      <div class="container-main">
+
+         <div class="container1 bg-white">
+           <img class="container-img " src="./img/mobile3.jpg" alt="mobile">
+           <div class="img-title">
+             SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+           </div>
+           <p class="new-old"> New</p>
+           <p class="location"> From:INDIA, Mumbai</p>
+           <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+                      <p class="da" ><button type="button" class="btn text-white ml-1">$132</button></p>
+          </div>
+         </div>
+
+         <div class="container1 bg-white">
+          <img class="container-img " src="./img/mobile4.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$132</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/mobile5.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$132</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/mobile2.jpeg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$132</button></p>
+         </div>
+        </div>  
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/mobile2.jpeg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$132</button></p>
+         </div>
+        </div>      
+
+      </div>
+    </article>
+
+    <article class="mobiles" id="tablet1">
+      <a class="container-title" href="#" ><h4>TABLET <i class="fas fa-fighter-jet"></i></h4></a>
+      <div class="container-main">
+
+         <div class="container1 bg-white">
+           <img class="container-img " src="./img/tab1.jpg" alt="mobile">
+           <div class="img-title">
+             SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+           </div>
+           <p class="new-old"> New</p>
+           <p class="location"> From:INDIA, Mumbai</p>
+           <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$532</button></p>
+          </div>
+         </div>
+
+         <div class="container1 bg-white">
+          <img class="container-img " src="./img/mobile4.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$632</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/tab2.jpeg" alt="mobile">
+          <div class="img-title">
+            Apple Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/tab1.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$868</button></p>
+         </div>
+        </div>  
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/tab1.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$868</button></p>
+         </div>
+        </div>       
+
+      </div>
+    </article>
+
+    <article class="mobiles" id="laptop1">
+      <a class="container-title" href="#" ><h4>LAPTOP <i class="fas fa-fighter-jet"></i></h4></a>
+      <div class="container-main">
+
+         <div class="container1 bg-white">
+           <img class="container-img " src="./img/laptop1.jpeg" alt="mobile">
+           <div class="img-title">
+             SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+           </div>
+           <p class="new-old"> New</p>
+           <p class="location"> From:INDIA, Mumbai</p>
+           <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$3132</button></p>
+          </div>
+         </div>
+
+         <div class="container1 bg-white">
+          <img class="container-img " src="./img/laptop2.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$8732</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/laptop2.jpg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$1032</button></p>
+         </div>
+        </div>
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/laptop1.jpeg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$5132</button></p>
+         </div>
+        </div>        
+        <div class="container1 bg-white">
+          <img class="container-img " src="./img/laptop1.jpeg" alt="mobile">
+          <div class="img-title">
+            SONY Xperia Z3 #34, 5G phone, 32MP, 4GB PHONE
+          </div>
+          <p class="new-old"> New</p>
+          <p class="location"> From:INDIA, Mumbai</p>
+          <div class="deals-price d-flex">
+            <p class="da" > <i class="fas fa-plus pl-2"> </i><button type="button" class="btn text-white ">Add to Cart</button></p>
+            <p class="da" ><button type="button" class="btn text-white ml-1">$5132</button></p>
+         </div>
+        </div>
+      </div>
+    </article>
+
+
+
+  </section>
+
+  
+    
+  <footer class=" border-top ">
+    <div class="foot-top d-flex container-fluid">
+      <div class="foot-top1">
+        <a class=" foot-top-dis" href="#"><img class="img-container" src="./img/shopeelogo.PNG" alt="logo_Image"></a>
+        <p class="foot-top-dis">
+          This is the dummy website of the electronics shop, Here you can find all the stuffs related to the 
+          electronics.
+        </p>
+      </div>
+      <div class="foot-top2 mt-3 ">
+         <h4 class="foot-top-head">CATEGORIES</h4>
+         <div class="foot-categories ml-2">
+           <div class="foot-categories1">
+             <a class="foot-categories2" href="#">Real Estate</a><br>
+             <a class="foot-categories2" href="#">Automotives</a><br>
+             <a class="foot-categories2" href="#">Electronics</a><br>
+             <a class="foot-categories2" href="#">Clothing</a><br>
+             <a class="foot-categories2" href="#">Fashion</a><br>
+             <a class="foot-categories2" href="#">Kids</a><br>
+             <a class="foot-categories2" href="#">Drinks</a><br>
+           </div>
+           <div class="foot-categories1">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#"> Drinks</a><br>
+          </div>
+          <div class="foot-categories1 third">
+            <a class="foot-categories2" href="#">Real Estate</a><br>
+            <a class="foot-categories2" href="#">Automotives</a><br>
+            <a class="foot-categories2" href="#">Electronics</a><br>
+            <a class="foot-categories2" href="#">Clothing</a><br>
+            <a class="foot-categories2" href="#">Fashion</a><br>
+            <a class="foot-categories2" href="#">Kids</a><br>
+            <a class="foot-categories2" href="#">Drinks</a><br>
+          </div>
+           
+         </div>
+      </div>
+    </div>
+    <div class="icon navbar-brand font-weight-bold d-flex justify-content-around w-100">      
+      <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+      <a href="#"><i class="fab fa-twitter text-white"></i></a>
+      <a href="#"><i class="fab fa-instagram text-white"></i></a>
+      <a href="#"><i class="fab fa-tumblr text-white"></i></a>
+      <a href="#"><i class="fab fa-linkedin text-white"></i></a>
+      </div>
+    <div class="foot-low border-top container-fluid font-weight-light py-3">
+        <h6>Copiright &copy; 2021,SHOPee.com. All right Researved. Created By Deepak Kumar. Electronic online shop.</h6>
+    </div>
+  </footer>
+
 </body>
 
 </html>
