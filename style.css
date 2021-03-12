@@ -85,7 +85,7 @@
 }
 
 .searchs {
-  width: 65px;
+  width: 55px;
 }
 
 .search-text {
@@ -126,9 +126,10 @@
 }
 
 .deals2 {
-  width: 60%;
+  width: 100%;
   height: auto;
   display: flex;
+  justify-content: center;
 }
 
 .mobile1-d {
